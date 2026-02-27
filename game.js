@@ -255,13 +255,13 @@ const furnitureData = {
 
   Lighting: {
     Basic: [
-      {name:"Basic Lighting 1", price:120, img:"/Lighting/basic_lighting1.png",
+      {name:"Basic Lighting 1", price:120, img:"basic_lighting1.png",
         flippedImg: "basic_lighting1-f.png",
         rearImg:"basic_lighting1.png",
         rearImgF:"basic_lighting1-f.png",
         width:150
       },
-      {name:"Basic Lighting 2", price: 120, img:"/Lighting/basic_lighting2.png",
+      {name:"Basic Lighting 2", price: 120, img:"basic_lighting2.png",
         flippedImg:"basic_lighting2.png",
         rearImg:"basic_lighting2.png",
         rearImgF: "basic_lighting2.png",
@@ -300,23 +300,23 @@ const furnitureData = {
     ],
 
     Luxury: [
-      {name:"Luxury Lighting 1", price:500, img:""luxury_lighting1.png",
-      flippedImg: ""luxury_lighting1-f.png",
-      rearImg: ""luxury_lighting1.png",
-      rearImgF: ""luxury_lighting1-f.png",
+      {name:"Luxury Lighting 1", price:500, img:"lighting1.png",
+      flippedImg: "lighting1-f.png",
+      rearImg: "lighting1.png",
+      rearImgF: "lighting1-f.png",
       width:150
       },
-      {name:"Luxury Lighting 2", price:500, img:""luxury_lighting2.png",
-      flippedImg: ""luxury_lighting2.png",
-      rearImg: ""luxury_lighting2.png",
-      rearImgF: ""luxury_lighting2.png",
+      {name:"Luxury Lighting 2", price:500, img:"lighting2.png",
+      flippedImg: "lighting2.png",
+      rearImg: "lighting2.png",
+      rearImgF: "lighting2.png",
       width:150
       },
 
-      {name:"Luxury Lighting 3", price:500, img:""luxury_lighting3.png",
-      flippedImg: ""luxury_lighting3.png",
-      rearImg: ""luxury_lighting3.png",
-      rearImgF: ""luxury_lighting3.png",
+      {name:"Luxury Lighting 3", price:500, img:"lighting3.png",
+      flippedImg: "lighting3.png",
+      rearImg: "lighting3.png",
+      rearImgF: "lighting3.png",
       width:150
       }
     ]
@@ -396,22 +396,22 @@ const furnitureData = {
 
   paintings: {
     Basic: [
-      {name:"Basic Painting 1", price:80, img: "Paintings/basic_painting1.png",
-       flippedImg: "Paintings/basic_painting1-f.png",
-       rearImg: "Paintings/basic_painting1.png",
-       rearImgF: "Paintings/basic_painting1-f.png",
+      {name:"Basic Painting 1", price:80, img: "basic_painting1.png",
+       flippedImg: "basic_painting1-f.png",
+       rearImg: "basic_painting1.png",
+       rearImgF: "basic_painting1-f.png",
        width: 150
       },
-      {name:"Basic Painting 2", price:80, img: "Paintings/basic_painting2.png",
-       flippedImg: "Paintings/basic_painting2-f.png",
-       rearImg: "Paintings/basic_painting2.png",
-       rearImgF: "Paintings/basic_painting2-f.png",
+      {name:"Basic Painting 2", price:80, img: "basic_painting2.png",
+       flippedImg: "basic_painting2-f.png",
+       rearImg: "basic_painting2.png",
+       rearImgF: "basic_painting2-f.png",
        width: 150
       },
-      {name:"Basic Painting 3", price:80, img: "Paintings/basic_painting3.png",
-       flippedImg: "Paintings/basic_painting3-f.png",
-       rearImg: "Paintings/basic_painting3.png",
-       rearImgF: "Paintings/basic_painting3-f.png",
+      {name:"Basic Painting 3", price:80, img: "basic_painting3.png",
+       flippedImg: "basic_painting3-f.png",
+       rearImg: "basic_painting3.png",
+       rearImgF: "basic_painting3-f.png",
        width: 100
 
       }
