@@ -139,7 +139,7 @@ const furnitureData = {
         rearImgF:"Standard_table1-f.png",
         width: 200
       },
-      {name:"Standard Table 1", price: 400, img:"Standard_table2.png",
+      {name:"Standard Table 2", price: 400, img:"Standard_table2.png",
         flippedImg: "Standard_table2-f.png",
         rearImg:"Standard_table2.png",
         rearImgF:"Standard_table2-f.png",
@@ -590,8 +590,8 @@ function buyItem(type, item) {
     table: { top: '250px', left: '100px' },
     Lighting: { top: '200px', left: '100px' },
     entertainment: {top: '100px', left:'100px'},
-    rugs: {tops:'300px', left:'100px'},
-    paintings: {tops:'300px',left:'100px'}
+    rugs: {top:'300px', left:'100px'},
+    paintings: {top:'300px',left:'100px'}
   };
   imgElem.style.top = anchors[type].top;
   imgElem.style.left = anchors[type].left;
