@@ -12,7 +12,7 @@ let tierIndexes = {
   Luxury: 0
 };
 
-const tiers = ["Basic", "Standard", "luxury"];
+const tiers = ["Basic", "Standard", "Luxury"];
 
 
 let selectedFurniture = null; // currently selected item
