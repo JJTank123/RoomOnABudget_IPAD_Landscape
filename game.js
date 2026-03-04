@@ -697,3 +697,10 @@ function showCurrentItem() {
     itemOptions.appendChild(viewer);
   });
 };
+function adjustLayoutForOrientation() {
+  document.body.style.height = window.innerHeight + "px";
+}
+
+window.addEventListener("resize", adjustLayoutForOrientation);
+window.addEventListener("orientationchange", adjustLayoutForOrientation);
+adjustLayoutForOrientation(); // run on load
