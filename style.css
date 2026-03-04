@@ -251,7 +251,7 @@ body.start-screen {
 .controls {
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
 }
 
