@@ -741,6 +741,6 @@ function backtoDice() {
 
   resetRoom();
 
-  window.location.href = "dice.html";
+  window.location.href = "index.html";
 }
 
