@@ -704,3 +704,11 @@ function adjustLayoutForOrientation() {
 window.addEventListener("resize", adjustLayoutForOrientation);
 window.addEventListener("orientationchange", adjustLayoutForOrientation);
 adjustLayoutForOrientation(); // run on load
+
+function backtoDice() {
+  localStorage.removeItem("budget");
+
+  resetRoom();
+
+  window.location.href = "dice.html";
+}
