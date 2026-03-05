@@ -268,3 +268,94 @@ body.start-screen {
   justify-content: center;
   gap: 10px;
 }
+
+body.start-screen {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  background: linear-gradient(135deg,#66e35d, #89e7fa,#1441e3);
+  font-family: 'Trebuchet MS', sans-serif;
+  color:#000;
+}
+
+.slides-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide img {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.slide p {
+  font-size: 2.0rem;
+  margin-bottom: 60px;
+}
+/*
+#nextBtn {
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: bold;
+  background-color:#ffa142 ;
+  border:none;
+  border-radius: 20px;
+  color:#000080;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+#nextBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+
+}
+  */
+.slide .tip {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  font-style: italic;
+}
+
+.slide-controls {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slide-controls button {
+  width: 180px;           /* same width for both */
+  height: 60px;           /* same height */
+  font-size: 1.7rem;      /* text size */
+  border-radius: 15px; /*round borders*/
+  border: none;
+  cursor: pointer;
+  background: #ffa142;
+  color:#000080;
+  box-shadow: 0 6px 15px rgba (0,0,0,0.3);
+  text-align: center;
+  font-weight: bold;
+}
+
+.slide-controls button:hover {
+  transform: scale(1.1);
+}
+
+
+
+
