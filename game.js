@@ -220,14 +220,14 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "Standard_entertainment2-f.png",
         rearImg: "Standard_entertainment2.png",
         rearImgF: "Standard_entertainment2-f.png",
-        width: 130
+        width: 200
       },
 
       {name:"Standard Entertainment System 2", price:650, img: "Standard_entertainment3.png",
         flippedImg: "Standard_entertainment3-f.png",
         rearImg: "Standard_entertainment3.png",
         rearImgF: "Standard_entertainment3-f.png",
-        width: 130
+        width: 200
 
       }
 
@@ -238,20 +238,20 @@ document.addEventListener("DOMContentLoaded", () => {
       flippedImg:"luxury_entertainment1-f.png",
       rearImg: "luxury_entertainment1.png",
       rearImgF: "luxury_entertainment1-f.png",
-      width:130
+      width:200
     },
       {name:"Luxury Entertainment System 2", price:1200, img:"luxury_entertainment2.png",
       flippedImg: "luxury_entertainment2-f.png",
       rearImg: "luxury_entertainment2.png",
       rearImgF: "luxury_entertainment2-f.png",
-      width:130
+      width:200
     },
 
       {name:"Luxury Entertainment System 3", price:1200, img:"luxury_entertainment3.png",
       flippedImg: "luxury_entertainment3-f.png",
       rearImg: "luxury_entertainment3.png",
       rearImgF: "luxury_entertainment3-f.png",
-      width:150
+      width:200
     },
 
     ]
@@ -263,19 +263,19 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "basic_lighting1-f.png",
         rearImg:"basic_lighting1.png",
         rearImgF:"basic_lighting1-f.png",
-        width:150
+        width:200
       },
       {name:"Basic Lighting 2", price: 120, img:"basic_lighting2.png",
         flippedImg:"basic_lighting2.png",
         rearImg:"basic_lighting2.png",
         rearImgF: "basic_lighting2.png",
-        width: 150
+        width: 200
       },
         {name:"Basic Lighting 3", price: 120, img:"basic_lighting3.png",
         flippedImg:"basic_lighting3.png",
         rearImg:"basic_lighting3.png",
         rearImgF: "basic_lighting3.png",
-        width: 150
+        width: 200
       }
     ],
 
