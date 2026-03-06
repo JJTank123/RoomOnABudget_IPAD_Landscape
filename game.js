@@ -283,21 +283,21 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "Standard_Lighting1-f.png",
         rearImg: "Standard_Lighting1.png",
         rearImgF: "Standard_Lighting1-f.png",
-        width:150
+        width:200
       },
 
       {name:"Standard Lighting 2", price: 250, img:"Standard_Lighting2.png",
         flippedImg: "Standard_Lighting2-f.png",
         rearImg: "Standard_Lighting2.png",
         rearImgF: "Standard_Lighting2-f.png",
-        width:150
+        width:200
       },
 
       {name:"Standard Lighting 3", price: 250, img:"Standard_Lighting3.png",
         flippedImg: "Standard_Lighting3.png",
         rearImg: "Standard_Lighting3.png",
         rearImgF: "Standard_Lighting3.png",
-        width:150
+        width:200
       }      
 
     ],
@@ -307,13 +307,13 @@ Luxury: [
     flippedImg: "luxury_lighting1-f.png",
     rearImg: "luxury_lighting1.png",
     rearImgF: "luxury_lighting1-f.png",
-    width:150
+    width:250
   },
   {name:"Luxury Lighting 2", price:500, img:"luxury_lighting2.png",
     flippedImg: "luxury_lighting2.png",
     rearImg: "luxury_lighting2.png",
     rearImgF: "luxury_lighting2.png",
-    width:150
+    width:200
   },
 
   {name:"Luxury Lighting 3", price:500, img:"luxury_lighting3.png",
