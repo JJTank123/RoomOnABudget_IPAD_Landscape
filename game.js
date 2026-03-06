@@ -665,7 +665,7 @@ function resetRoom() {
     if (!img.classList.contains('roomBackground')) img.remove();
   });
 
-  selectedItems = { couch:null, table:null, Lighting:null, paintings:null, entertainment:null, rugs:null };
+  selectedItems = { couch:null, table:null, lighting:null, paintings:null, entertainment:null, rugs:null };
   selectedFurniture = null;
   tierIndexes = { Basic:0, Standard:0, Luxury:0 };
   itemOptions.innerHTML = "";
