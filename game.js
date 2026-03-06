@@ -158,28 +158,27 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     ],
 
-    Luxury: [
-      {name:"Standard Table 1", price: 750, img:"luxury_table1.png",
-        flippedImg: "luxury_table1-f.png",
-        rearImg:"luxury_table1.png",
-        rearImgF:"luxury_table1-f.png",
-        width: 200
-      },
+Luxury: [
+  {name:"Luxury Lighting 1", price:500, img:"luxury_lighting1.png",
+    flippedImg: "luxury_lighting1-f.png",
+    rearImg: "luxury_lighting1.png",
+    rearImgF: "luxury_lighting1-f.png",
+    width:150
+  },
+  {name:"Luxury Lighting 2", price:500, img:"luxury_lighting2.png",
+    flippedImg: "luxury_lighting2.png",
+    rearImg: "luxury_lighting2.png",
+    rearImgF: "luxury_lighting2.png",
+    width:150
+  },
 
-      {name:"Standard Table 2", price: 750, img:"luxury_table2.png",
-        flippedImg: "luxury_table2-f.png",
-        rearImg:"luxury_table2.png",
-        rearImgF:"luxury_table2-f.png",
-        width: 200
-      },
-
-      {name:"Standard Table 3", price: 750, img:"luxury_table3.png",
-        flippedImg: "luxury_table3-f.png",
-        rearImg:"luxury_table3.png",
-        rearImgF:"luxury_table3-f.png",
-        width: 200
-      },      
-    ]
+  {name:"Luxury Lighting 3", price:500, img:"luxury_lighting3.png",
+    flippedImg: "luxury_lighting3.png",
+    rearImg: "luxury_lighting3.png",
+    rearImgF: "luxury_lighting3.png",
+    width:150
+  }
+]
 
   },
 
@@ -604,7 +603,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const imgElem = document.createElement('img');
     imgElem.src = item.img;
-    imgElem.id = item.name;
+imgElem.id = item.name.replace(/\s+/g, "_");
     imgElem.dataset.type = type;
     imgElem.style.width = item.width + "px";
 
