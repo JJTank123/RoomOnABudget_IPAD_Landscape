@@ -656,15 +656,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ---------------- RESET ROOM ----------------
-  function resetRoom() {
-    budget = 3500;
-    updateBudgetDisplay();
-    document.querySelectorAll("#roomCanvas img").forEach(img => img.remove());
-    selectedItems = { couch:null, table:null, Lighting:null, paintings:null, entertainment:null, rugs:null };
-    selectedFurniture = null;
-    tierIndexes = { Basic:0, Standard:0, Luxury:0 };
-    itemOptions.innerHTML = "";
-  }
+function resetRoom() {
+  budget = 3500;
+  updateBudgetDisplay();
+
+  // Remove only furniture, not the room background
+  document.querySelectorAll("#roomCanvas img").forEach(img => {
+    if (!img.classList.contains('roomBackground')) img.remove();
+  });
+
+  selectedItems = { couch:null, table:null, Lighting:null, paintings:null, entertainment:null, rugs:null };
+  selectedFurniture = null;
+  tierIndexes = { Basic:0, Standard:0, Luxury:0 };
+  itemOptions.innerHTML = "";
+}
 
   resetBtn.addEventListener("click", resetRoom);
 
