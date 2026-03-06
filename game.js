@@ -589,9 +589,8 @@ Luxury: [
   function buyItem(type, item) {
     if (selectedItems[type]) {
       budget += selectedItems[type].price;
-const prevElem = document.getElementById(
-  selectedItems[type].name.replace(/\s+/g, "_")
-);      if (prevElem) prevElem.remove();
+    const prevElem = document.getElementById(selectedItems[type].name.replaceAll(" ", "_"));
+     if (prevElem) prevElem.remove();
     }
 
     if (item.price > budget) {
@@ -604,7 +603,7 @@ const prevElem = document.getElementById(
 
     const imgElem = document.createElement('img');
     imgElem.src = item.img;
-imgElem.id = item.name.replace(/\s+/g, "_");
+    imgElem.id = item.name
     imgElem.dataset.type = type;
     imgElem.style.width = item.width + "px";
 
