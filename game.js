@@ -238,20 +238,20 @@ document.addEventListener("DOMContentLoaded", () => {
       flippedImg:"luxury_entertainment1-f.png",
       rearImg: "luxury_entertainment1.png",
       rearImgF: "luxury_entertainment1-f.png",
-      width:200
+      width:250
     },
       {name:"Luxury Entertainment System 2", price:1200, img:"luxury_entertainment2.png",
       flippedImg: "luxury_entertainment2-f.png",
       rearImg: "luxury_entertainment2.png",
       rearImgF: "luxury_entertainment2-f.png",
-      width:200
+      width:250
     },
 
       {name:"Luxury Entertainment System 3", price:1200, img:"luxury_entertainment3.png",
       flippedImg: "luxury_entertainment3-f.png",
       rearImg: "luxury_entertainment3.png",
       rearImgF: "luxury_entertainment3-f.png",
-      width:200
+      width:250
     },
 
     ]
