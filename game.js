@@ -4,6 +4,9 @@ const roomCanvas = document.getElementById('roomCanvas');
 const itemOptions = document.getElementById('itemOptions');
 const categories = document.querySelectorAll('.category');
 const changeViewBtn = document.getElementById('changeView');
+const resetBtn = document.getElementById("resetBtn");
+const backBtn = document.getElementById("backtoDiceBtn");
+const finishBtn = document.getElementById("finishRoom");
 
 let currentCategory = null;
 let tierIndexes = {
@@ -631,6 +634,8 @@ changeViewBtn.addEventListener('click', () => {
   showSelectionOutline(selectedFurniture);
 });
 
+
+const finishBtn = document.getElementById("finishRoom");
 finishBtn.addEventListener("click", () => {
   if (budget >= 0) {
     alert("✅ You stayed within budget! Drawer unlocked! Your code is 200");
@@ -708,27 +713,20 @@ window.addEventListener("resize", adjustLayoutForOrientation);
 window.addEventListener("orientationchange", adjustLayoutForOrientation);
 adjustLayoutForOrientation(); // run on load
 
-
-document.getElementById("resetRoom").addEventListener("click",resetRoom);
-
-resetBtn.addEventListener("click", () => {
+function resetRoom() {
   budget = parseInt(localStorage.getItem("gameBudget")) || 1000;
   updateBudgetDisplay();
-
-  // Only remove furniture images
-  document.querySelectorAll("#roomCanvas img.furniture").forEach(img => img.remove());
-
-  selectedItems = { couch:null, table:null, lighting:null, paintings:null, entertainment:null, rugs:null };
+  document.querySelectorAll("#roomCanvas img").forEach(img => img.remove());
+  selectedItems = { couch:null, table:null, Lighting:null, paintings:null, entertainment:null, rugs:null };
   selectedFurniture = null;
   tierIndexes = { Basic:0, Standard:0, Luxury:0 };
   itemOptions.innerHTML = "";
-});
-
-function backtoDice() {
-  localStorage.removeItem("budget");
-
-  resetRoom();
-
-  window.location.href = "dice.html";
 }
+
+resetBtn.addEventListener("click", resetRoom);
+
+backBtn.addEventListener("click", () => {
+  resetRoom();
+  window.location.href = "dice.html";
+});
 
