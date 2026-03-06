@@ -589,8 +589,9 @@ Luxury: [
   function buyItem(type, item) {
     if (selectedItems[type]) {
       budget += selectedItems[type].price;
-      const prevElem = document.getElementById(selectedItems[type].name);
-      if (prevElem) prevElem.remove();
+const prevElem = document.getElementById(
+  selectedItems[type].name.replace(/\s+/g, "_")
+);      if (prevElem) prevElem.remove();
     }
 
     if (item.price > budget) {
