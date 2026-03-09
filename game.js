@@ -165,17 +165,17 @@ document.addEventListener("DOMContentLoaded", () => {
         width: 200
       },
 
-      {name:"Standard Table 2", price: 750, img:"Luxury/Table/luxury_table2.png",
-        flippedImg: "Luxury/Table/luxury_table2-f.png",
-        rearImg:"Luxury/Table/luxury_table2.png",
-        rearImgF:"Luxury/Table/luxury_table2-f.png",
+      {name:"Standard Table 2", price: 750, img:"luxury_table2.png",
+        flippedImg: "luxury_table2-f.png",
+        rearImg:"luxury_table2.png",
+        rearImgF:"luxury_table2-f.png",
         width: 200
       },
 
-      {name:"Standard Table 3", price: 750, img:"Luxury/Table/luxury_table3.png",
-        flippedImg: "Luxury/Table/luxury_table3-f.png",
-        rearImg:"Luxury/Table/luxury_table3.png",
-        rearImgF:"Luxury/Table/luxury_table3-f.png",
+      {name:"Standard Table 3", price: 750, img:"Table/luxury_table3.png",
+        flippedImg: "luxury_table3-f.png",
+        rearImg:"luxury_table3.png",
+        rearImgF:"luxury_table3-f.png",
         width: 200
       },      
     ]
