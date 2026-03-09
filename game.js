@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         width:250
       },
       { name:"Standard Couch 3", price:900, img:"Standard_couch3.png",
-        flippedImg:"Standard-couch3-f.png",
+        flippedImg:"Standard_couch3-f.png",
         rearImg:"Standard_couch3_back.png",
         rearImgF:"Standard_couch3_back-f.png",
         width:250
@@ -158,10 +158,10 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     ],
     Luxury: [
-      {name:"Standard Table 1", price: 750, img:"Luxury/Table/luxury_table1.png",
-        flippedImg: "Luxury/Table/luxury_table1-f.png",
-        rearImg:"Luxury/Table/luxury_table1.png",
-        rearImgF:"Luxury/Table/luxury_table1-f.png",
+      {name:"Standard Table 1", price: 750, img:"luxury_table1.png",
+        flippedImg: "luxury_table1-f.png",
+        rearImg:"luxury_table1.png",
+        rearImgF:"luxury_table1-f.png",
         width: 200
       },
 
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "basic_lighting1-f.png",
         rearImg:"basic_lighting1.png",
         rearImgF:"basic_lighting1-f.png",
-        width:200
+        width:150
       },
       {name:"Basic Lighting 2", price: 120, img:"basic_lighting2.png",
         flippedImg:"basic_lighting2.png",
@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg:"basic_lighting3.png",
         rearImg:"basic_lighting3.png",
         rearImgF: "basic_lighting3.png",
-        width: 200
+        width: 150
       }
     ],
 
@@ -283,21 +283,21 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "Standard_Lighting1-f.png",
         rearImg: "Standard_Lighting1.png",
         rearImgF: "Standard_Lighting1-f.png",
-        width:200
+        width:150
       },
 
       {name:"Standard Lighting 2", price: 250, img:"Standard_Lighting2.png",
         flippedImg: "Standard_Lighting2-f.png",
         rearImg: "Standard_Lighting2.png",
         rearImgF: "Standard_Lighting2-f.png",
-        width:200
+        width:150
       },
 
       {name:"Standard Lighting 3", price: 250, img:"Standard_Lighting3.png",
         flippedImg: "Standard_Lighting3.png",
         rearImg: "Standard_Lighting3.png",
         rearImgF: "Standard_Lighting3.png",
-        width:200
+        width:150
       }      
 
     ],
@@ -313,14 +313,14 @@ Luxury: [
     flippedImg: "luxury_lighting2.png",
     rearImg: "luxury_lighting2.png",
     rearImgF: "luxury_lighting2.png",
-    width:200
+    width:150
   },
 
   {name:"Luxury Lighting 3", price:500, img:"luxury_lighting3.png",
     flippedImg: "luxury_lighting3.png",
     rearImg: "luxury_lighting3.png",
     rearImgF: "luxury_lighting3.png",
-    width:200
+    width:150
   }
 ]
   },
