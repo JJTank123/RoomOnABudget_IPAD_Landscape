@@ -290,14 +290,14 @@ document.addEventListener("DOMContentLoaded", () => {
         flippedImg: "Standard_Lighting2-f.png",
         rearImg: "Standard_Lighting2.png",
         rearImgF: "Standard_Lighting2-f.png",
-        width:150
+        width:125
       },
 
       {name:"Standard Lighting 3", price: 250, img:"Standard_Lighting3.png",
         flippedImg: "Standard_Lighting3.png",
         rearImg: "Standard_Lighting3.png",
         rearImgF: "Standard_Lighting3.png",
-        width:150
+        width:125
       }      
 
     ],
