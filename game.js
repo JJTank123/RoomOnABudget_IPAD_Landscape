@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
         rearImg:"Standard_table3.png",
         rearImgF:"Standard_table3-f.png",
         width: 200
-      }
+      },
     ],
     Luxury: [
       {name:"Standard Table 1", price: 750, img:"luxury_table1.png",
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         width: 200
       },
 
-      {name:"Standard Table 3", price: 750, img:"Table/luxury_table3.png",
+      {name:"Standard Table 3", price: 750, img:"luxury_table3.png",
         flippedImg: "luxury_table3-f.png",
         rearImg:"luxury_table3.png",
         rearImgF:"luxury_table3-f.png",
