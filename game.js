@@ -313,14 +313,14 @@ Luxury: [
     flippedImg: "luxury_lighting2.png",
     rearImg: "luxury_lighting2.png",
     rearImgF: "luxury_lighting2.png",
-    width:150
+    width:125
   },
 
   {name:"Luxury Lighting 3", price:500, img:"luxury_lighting3.png",
     flippedImg: "luxury_lighting3.png",
     rearImg: "luxury_lighting3.png",
     rearImgF: "luxury_lighting3.png",
-    width:150
+    width:125
   }
 ]
   },
